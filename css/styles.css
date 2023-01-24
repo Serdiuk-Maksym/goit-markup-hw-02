@@ -1,0 +1,105 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* NAVY BLUE */
+  color: #2e2f42;
+}
+.header-logo-span {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* IRIS */
+  color: #4d5ae5;
+}
+.header-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  /* NAVY BLUE */
+  color: #2e2f42;
+}
+.header-item {
+}
+.header-link {
+}
+.header-address {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  /* SLATE */
+  color: #434455;
+}
+.header-mail {
+}
+.header-tel {
+}
+
+.hero {
+}
+.hero-title {
+}
+.hero-btn {
+}
+
+.fearures-list {
+}
+.features-item {
+}
+.features-subtitle {
+}
+.features-text {
+}
+
+.doing {
+}
+.doing-title {
+}
+.doing-list {
+}
+.doing-item {
+}
+
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-picture {
+}
+.team-subtitle {
+}
+.team-text {
+}
+
+.footer {
+}
+.footer-logo {
+}
+.footer-text {
+}
