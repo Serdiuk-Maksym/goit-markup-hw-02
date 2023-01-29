@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -21,7 +21,7 @@
         >
         <ul class="header-list">
           <li class="header-item">
-            <a class="header-link" href="./index.html">Studio</a>
+            <a class="header-link current" href="./index.html">Studio</a>
           </li>
           <li class="header-item">
             <a class="header-link" href="./portfolio.html">Portfolio</a>
@@ -33,11 +33,13 @@
       </nav>
       <address class="header-address">
         <ul>
-          <li class="header-mail">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <li class="header-address-item">
+            <a class="mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="header-tel">
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <li class="header-address-item">
+            <a class="tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
@@ -45,12 +47,12 @@
 
     <main>
       <section class="hero">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <h1 class="hero-title">Effective Solutions<br />for Your Business</h1>
         <button class="hero-btn" type="button">Order Service</button>
       </section>
 
       <section class="fearures-list">
-        <h2 hidden>features</h2>
+        <h2 hidden class="visually-hidden">features</h2>
         <ul>
           <li class="features-item">
             <h3 class="features-subtitle">Strategy</h3>
@@ -158,7 +160,9 @@
     </main>
 
     <footer class="footer">
-      <a class="footer-logo" href="./index.html"> WebStudio </a>
+      <a class="footer-logo" href="./index.html">
+        <span class="footer-logo-span">Web</span>Studio</a
+      >
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
